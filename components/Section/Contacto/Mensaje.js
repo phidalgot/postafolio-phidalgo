@@ -1,8 +1,11 @@
 import { useState } from 'react'
+import Spinner from '../../icons/Spinner'
 import style from '../section.module.css'
 
 function Mensaje() {
   const [enviar, setenviar] = useState(true)
+  const [enviado, setenviado] = useState(true)
+
   const [mensaje, setmensaje] = useState({
     nombre: '',
     email: '',
@@ -11,6 +14,7 @@ function Mensaje() {
 
   const handleSubmitContact = (e) => {
     e.preventDefault()
+    setenviado(false)
 
     fetch('/api/send-email', {
       method: 'POST',
@@ -29,6 +33,8 @@ function Mensaje() {
           tumensaje: '',
         })
         setenviar(true)
+        setenviado(true)
+
       })
       .catch((err) => {
         console.log('ERROR =>', err.response)
@@ -81,7 +87,8 @@ function Mensaje() {
           type='submit'
           vaule='Enviar'
         >
-          Enviar
+          {/* <Spinner/> */}
+          {enviado ? 'Enviar' : <Spinner />}
         </button>
       </form>
       {/* <a href='mailto:phidalgot@gmail.com'></a> */}

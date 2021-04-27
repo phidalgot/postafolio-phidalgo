@@ -93,13 +93,15 @@
 
 /* formularcio contacto */
 .btn {
+  display: flex;
+  justify-content: center;
   border: none;
   background: var(--secund-color);
   color: var(--dark-color-alt);
   padding: 10px;
   font-size: 18px;
   border-radius: 5px;
-  position: relative;
+  /* position: relative; */
   box-sizing: border-box;
   transition: all 500ms ease;
 }
@@ -112,12 +114,14 @@
   /* background-color: var(--hover-color); */
 }
 .btndisable {
+  /* position: relative; */
+  display: flex;
+  justify-content: center;
+  box-sizing: border-box;
   border: none;
   padding: 10px;
   font-size: 18px;
   border-radius: 5px;
-  position: relative;
-  box-sizing: border-box;
   transition: all 500ms ease;
 }
 

@@ -1,0 +1,54 @@
+acerca de
+Me encanta escribir código conciso, fácil de mantener, valoro la comunicación clara por encima de casi todo lo demás.
+Mis proyectos recientes incluyen todo un sistema de Recursos Humanos con importación CSV asíncrona he integración con el sistema administrativo SIGA, un Sistema de Seguimiento y control de Pedidos de Vallas y avisos publicitarios.
+
+Tengo un grado de Ingeniería en Informatica. A continuación se enumeran mi experiencia y habilidades.
+
+- 9 años de experiencia en desarrollo de aplicaciones web con PHP, MySQL, Postgres y JavaScript;
+- 1 año de experiencia con RoR (Ruby on Rails).
+- El conocimiento experto de los marcos laravel y Symfony;
+- El conocimiento profundo de la arquitectura de sistemas y metodologías de diseño de software;
+- Una buena experiencia en el desarrollo de GUI usando jQuery, AngularJS, Bootstrap;
+- Amplia experiencia en sistemas de gestión de bases de datos relacionales, principalmente con MySQL y PostgerSQL;
+- Experiencia con la base de datos NoSQL MongoDB;
+- Uso de Git para control de versiones
+- Para el Manejo y seguimineto de proyecto me gusta utilizar Taiga con Slack.
+
+Mi Meta siempre será Satisfacer las necesidades del Cliente y Fechas límite, Cuando trabajo en un nuevo proyecto, me gusta hablar con el cliente, de modo que pueda tener una comprensión clara de su / sus necesidades y visión del proyecto.
+
+Soy honesta y justa. 
+
+
+Acerca de
+Desarrollador Profesional de Soluciones e Innovaciones. Mi Meta siempre será Satisfacer las necesidades del Cliente y Fechas límite, Cuando trabajo en un nuevo proyecto, me gusta hablar con el cliente, de modo que pueda tener una comprensión clara de su / sus necesidades y visión del proyecto. Las áreas y conocimientos que ocupo son las siguientes:
+
+Desarrollo de Aplicaciones Móviles:
+• Backend en Laravel o Codeigniter, Backoffice para autoadministrar contenido, Elaboración de aplicaciones con React Native
+
+Desarrollo de Aplicaciones WEB:
+• Backend en Laravel o Codeigniter, Backoffice para autoadministrar contenido, Frontend en vuejs, html5, css3, bootstrap, jquery, blade, Worpress, Woocommerce, Joomla, Moodle
+
+Administración de Servidores
+• Creación y configuración de servidores VPS, tareas programadas, Manejo de Digital Ocean, Hostinger, Godaddy, entre otros, backup, dominios.
+
+Software para Electrónica:
+• Creación de programas para arduino (Lenguaje C), Manejo de Arduino con Laravel y conexión remota, Manejo y conexión de Arduino con Raspberry, Aplicaciones WEB y Móviles 
+
+
+
+
+Acerca de
+Desarrollador Profesional de Soluciones e Innovaciones.  valoro la comunicación clara por encima de casi todo lo demás.  Siempre hago que las tareas más engorrosas, complicadas y repetitivas de un proceso o sistema se hagan de manera sencilla y eficiente. Las áreas y conocimientos que ocupo son las siguientes:
+
+Desarrollo de Aplicaciones Móviles:
+• Backend en Nodejs, express.js , Backoffice para autoadministrar contenido, Elaboración de aplicaciones con React Native
+
+Desarrollo de Aplicaciones WEB:
+• Backend en Nodejs, express.js, Backoffice para autoadministrar contenido, Frontend en React, Nextjs, html5, css3, Tailwind, Worpress, Woocommerce, Joomla, Moodle
+
+Administración de Servidores:
+• Creación y configuración de servidores VPS, tareas programadas, Manejo de Digital Ocean, Hostinger, Godaddy, entre otros, backup, dominios.
+
+• Amplia experiencia en sistemas de gestión de bases de datos relacionales, principalmente con Oracle, MySQL y PostgerSQL;
+• Experiencia con la base de datos NoSQL MongoDB;
+• Uso de Git para control de versiones

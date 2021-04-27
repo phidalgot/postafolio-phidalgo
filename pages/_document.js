@@ -4,11 +4,8 @@ import Document, { Html, Head, Main, NextScript } from 'next/document'
 export default class MyDocument extends Document {
   render() {
     return (
-      <Html id='html'>
+      <Html id='html' lang='es'>
         <Head>
-          {/* <title>Portafolio Pedro Hidalgo</title>
-          <link rel='icon' href='/favicon.ico' /> */}
-
           <script
             async
             src={`https://www.googletagmanager.com/gtag/js?id=${process.env.GA_TRACKING_ID}`}

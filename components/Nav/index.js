@@ -69,19 +69,30 @@ export default function Nav() {
           </div>
 
           <div className='nav__social'>
-            <a href='#' className='nav__social-icon'>
-              {/* <ion-icon name='logo-linkedin'></ion-icon> */}
+            <a
+              href='https://www.linkedin.com/in/pedro-h-hidalgo-t-8107687a/'
+              target='_blank'
+              className='nav__social-icon'
+            >
               <box-icon
                 color='white'
                 type='logo'
                 name='linkedin-square'
               ></box-icon>
             </a>
-            <a href='#' className='nav__social-icon'>
+            <a
+              href='https://github.com/phidalgot'
+              target='_blank'
+              className='nav__social-icon'
+            >
               <box-icon color='white' type='logo' name='github'></box-icon>
               {/* <ion-icon name='logo-github'></ion-icon> */}
             </a>
-            <a href='#' className='nav__social-icon'>
+            <a
+              href='https://twitter.com/phidalgot'
+              target='_blank'
+              className='nav__social-icon'
+            >
               <box-icon color='#0084b4' type='logo' name='twitter'></box-icon>
 
               {/* <ion-icon name='logo-twitter'></ion-icon> */}

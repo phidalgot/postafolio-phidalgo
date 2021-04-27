@@ -1,5 +1,6 @@
 // import Head from 'next/head'
 // import styles from '../styles/Home.module.css'
+import { NextSeo } from 'next-seo'
 
 import Home from '../components/Section/Home'
 import Nav from '../components/Nav'
@@ -10,7 +11,7 @@ import Sobremi from '../components/Section/Sobremi'
 
 export default function HomeInicio() {
   return (
-    <>
+    <main>
       {/* ========== SCROLL TOP ========== */}
       <a href='#' className='scrolltop' id='scroll-top'>
         <box-icon
@@ -21,6 +22,38 @@ export default function HomeInicio() {
         ></box-icon>
         {/* <box-icon color='#ccff00' type='solid' name='up-arrow-circle'>hola</box-icon> */}
       </a>
+      <NextSeo
+        title='Portafolio Pedro Hidalgo'
+        description='FullStack Developer'
+        openGraph={{
+          url: 'https://portafolio-phidalgo.vercel.app',
+          title: 'Pedro Hidalgo - Portafolio',
+          description: 'FullStack Developer',
+          locale:'es_VE',
+          images: [
+            {
+              url:
+                'https://portafolio-phidalgo.vercel.app/images/tablet-movil-desktop-web_portafolio.svg',
+              width: 800,
+              height: 600,
+              alt: 'Portafolio pedro Hidalgo',
+            },
+          ],
+        }}
+        twitter={{
+          handle: '@phidalgot',
+          site: '@site',
+          cardType: 'summary_large_image',
+        }}
+        robotsProps={{
+          nosnippet: true,
+          noimageindex: true,
+          noarchive: true,
+          maxSnippet: -1,
+          maxImagePreview: 'none',
+          maxVideoPreview: -1,
+        }}
+      />
 
       <Nav />
       <Home />
@@ -28,6 +61,6 @@ export default function HomeInicio() {
       <Habilidades />
       <Servicios />
       <Contacto />
-    </>
+    </main>
   )
 }
