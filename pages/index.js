@@ -29,11 +29,11 @@ export default function HomeInicio() {
           url: 'https://portafolio-phidalgo.vercel.app',
           title: 'Pedro Hidalgo - Portafolio',
           description: 'FullStack Developer',
-          locale:'es_VE',
+          locale: 'es_VE',
           images: [
             {
               url:
-                'https://portafolio-phidalgo.vercel.app/images/tablet-movil-desktop-web_portafolio.svg',
+                'https://portafolio-phidalgo.vercel.app/images/tablet-movil-desktop-web_portafolio.png',
               width: 800,
               height: 600,
               alt: 'Portafolio pedro Hidalgo',
