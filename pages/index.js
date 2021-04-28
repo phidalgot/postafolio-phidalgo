@@ -25,11 +25,15 @@ export default function HomeInicio() {
       <NextSeo
         title='Portafolio Pedro Hidalgo'
         description='FullStack Developer'
+        facebook={{
+          appId: '1171798299949493',
+        }}
         openGraph={{
           url: 'https://portafolio-phidalgo.vercel.app',
           title: 'Pedro Hidalgo - Portafolio',
           description: 'FullStack Developer',
           locale: 'es_VE',
+          
           images: [
             {
               url:
