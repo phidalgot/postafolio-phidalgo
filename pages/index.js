@@ -34,8 +34,8 @@ export default function HomeInicio() {
             {
               url:
                 'https://portafolio-phidalgo.vercel.app/images/tablet-movil-desktop-web_portafolio.png',
-              width: 300,
-              height: 300,
+              width: 150,
+              height: 150,
               alt: 'Portafolio pedro Hidalgo',
             },
           ],
