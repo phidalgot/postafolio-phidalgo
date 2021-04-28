@@ -34,7 +34,6 @@ export default function HomeInicio() {
           title: 'Pedro Hidalgo - Portafolio',
           description: 'FullStack Developer',
           locale: 'es_VE',
-
           images: [
             {
               url:
