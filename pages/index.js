@@ -49,14 +49,14 @@ export default function HomeInicio() {
           site: '@site',
           cardType: 'summary_large_image',
         }}
-        robotsProps={{
-          nosnippet: true,
-          noimageindex: true,
-          noarchive: true,
-          maxSnippet: -1,
-          maxImagePreview: 'none',
-          maxVideoPreview: -1,
-        }}
+        // robotsProps={{
+        //   nosnippet: true,
+        //   noimageindex: true,
+        //   noarchive: true,
+        //   maxSnippet: -1,
+        //   maxImagePreview: 'none',
+        //   maxVideoPreview: -1,
+        // }}
       />
 
       <Nav />
