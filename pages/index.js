@@ -29,11 +29,12 @@ export default function HomeInicio() {
           appId: '1171798299949493',
         }}
         openGraph={{
+          type: 'website',
           url: 'https://portafolio-phidalgo.vercel.app',
           title: 'Pedro Hidalgo - Portafolio',
           description: 'FullStack Developer',
           locale: 'es_VE',
-          
+
           images: [
             {
               url:
